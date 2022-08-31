@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="Bohemian" _name="Bohemian" version="1.0">
+    <author>Vasileios Apostolidis-Afentoulis | vapoafe@gmail.com</author>
+    <_description>Color scheme for Bohemian color palette</_description>
+  
+    <!-- Bohemian Colors -->
+    <color name="Bohemian_BG" value="#201B2D" />
+    <color name="Bohemian_FG" value="#CCDBDC" />
+    <color name="Bohemian_SELECTION" value="#007EA7" />
+    <color name="Bohemian_COMMENT" value="#BBE1FA" />
+    <color name="Bohemian_CYAN" value="#9AD1D4" />
+    <color name="Bohemian_GREEN" value="#0ead69" />
+    <color name="Bohemian_ORANGE" value="#ff9505" />
+    <color name="Bohemian_PINK" value="#FC5185" />
+    <color name="Bohemian_PURPLE" value="#c078ff" />
+    <color name="Bohemian_RED" value="#a4243b" />
+    <color name="Bohemian_YELLOW" value="#ffbc42" />
+
+    <color name="Bohemian_BGLight" value="#003249" />
+
+    <!-- Global Settings -->
+    <style name="text"
+           foreground="Bohemian_FG"
+           background="Bohemian_BG" />
+    <style name="selection"
+           background="Bohemian_SELECTION" />
+    <style name="cursor"
+           foreground="Bohemian_FG"/>
+    <style name="secondary-cursor"
+           foreground="Bohemian_FG"/>
+    <style name="current-line"
+           background="Bohemian_BGLight"/>
+    <style name="line-numbers"
+           foreground="Bohemian_COMMENT"
+           background="Bohemian_BG" />
+    <style name="background-pattern"
+           background="Bohemian_BG"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"
+           foreground="Bohemian_FG"
+           background="Bohemian_SELECTION"/>
+    <style name="bracket-mismatch"
+           foreground="Bohemian_RED"
+           background="Bohemian_SELECTION"/>
+
+    <!-- Right Margin -->
+    <style name="right-margin"
+           foreground="Bohemian_COMMENT"
+           background="Bohemian_BG"/>
+    
+    <!-- Search Matching -->
+    <style name="search-match"
+           foreground="Bohemian_FG"
+           background="Bohemian_CYAN"/>
+
+    <!-- Comments -->
+    <style name="def:comment"
+           foreground="Bohemian_COMMENT"/>
+    <style name="def:shebang"
+           foreground="Bohemian_COMMENT"
+           bold="true"/>
+    <style name="def:doc-comment-element"
+           italic="true"/>
+
+    <!-- Constants -->
+    <style name="def:constant"
+           foreground="Bohemian_YELLOW"/>
+    <style name="def:special-char"
+           foreground="Bohemian_PINK"/>
+    <style name="def:number"
+           foreground="Bohemian_PURPLE" />
+
+    <!-- Identifiers -->
+    <style name="def:identifier"
+           foreground="Bohemian_PINK"/>
+
+    <!-- Statements -->
+    <style name="def:statement"
+           foreground="Bohemian_PINK"/>
+
+    <!-- Types -->
+    <style name="def:type"
+           foreground="Bohemian_GREEN"/>
+
+    <!-- Operators -->
+    <style name="def:operator"
+           foreground="Bohemian_PINK"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor"
+           foreground="Bohemian_PINK"/>
+    <style name="def:error"
+           foreground="Bohemian_RED"
+           bold="true"/>
+    <style name="def:note"
+           foreground="Bohemian_COMMENT"
+           background="Bohemian_FG"/>
+    <style name="def:underlined"
+           italic="true"
+           underline="single"/>
+
+</style-scheme>
