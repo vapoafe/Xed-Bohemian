@@ -3,7 +3,7 @@
 [Xed](https://github.com/linuxmint/xed) is a small and lightweight text editor default installed in Linux Mint. This theme is based on Bohemian moods.
 
 <div align="center">
-    <img src="images/demo_bohemian.jpg">
+    <img src="images/demo_bohemian.png">
 </div>
 
 ## Observation
