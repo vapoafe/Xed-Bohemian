@@ -51,8 +51,8 @@
     
     <!-- Search Matching -->
     <style name="search-match"
-           foreground="Bohemian_FG"
-           background="Bohemian_CYAN"/>
+           foreground="Bohemian_ORANGE"
+           background="Bohemian_BGLight"/>
 
     <!-- Comments -->
     <style name="def:comment"
